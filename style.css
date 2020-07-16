@@ -45,3 +45,14 @@ body {
     background: #dd4b39;
     color: white;
 }
+
+.card-body>p {
+    text-indent: 30px;
+    font-size: 19px;
+    font-family: century gothic;
+    text-transform: lowercase !important;
+}
+
+.card-body>p:first-letter {
+    text-transform: capitalize !important;
+}
